@@ -1,0 +1,41 @@
+/* input[type="number"]{
+    background-color: yellow;
+    color: red;
+    border-radius: 15px;
+    padding-left: 18px;
+}
+input[checked]{
+    outline: 2px solid red;
+}
+input[disabled]{
+    background-color: green;
+    border-radius: 15px;
+} */
+/* a:hover{
+    color: red;
+    text-transform: uppercase;
+ }
+input:focus{
+    background-color: black;
+}
+li:first-child{
+    color: orange;
+    text-decoration: underline;
+}
+li:last-child{
+    color: purple;
+} */
+p::before {
+  content: "🪐 ";
+}
+p::after {
+  content: "! 🪐";
+  color: orange;
+}
+input::placeholder {
+  color: green;
+  font-style: italic;
+}
+input {
+  color:green;
+}
