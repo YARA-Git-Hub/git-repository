@@ -25,7 +25,7 @@ li:first-child{
 li:last-child{
     color: purple;
 } */
-p::before {
+/* p::before {
   content: "🪐 ";
 }
 p::after {
@@ -38,4 +38,59 @@ input::placeholder {
 }
 input {
   color:green;
+} */
+.inline {
+  display: inline-block;
+  border: 3px solid green;
+  background-color: lightgreen;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+}
+.block {
+  display: block;
+  border: 3px solid crimson;
+  background-color: orange;
+  color: black;
+  height: 100px;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.none {
+  display: inline-block;
+  border: 3px solid blue;
+  background-color: skyblue;
+  color: black;
+  width: 100px;
+  padding: 11px;
+  margin: 10px;
+}
+.flex {
+  display: flex;
+  border: 3px solid yellowgreen;
+  background-color: yellow;
+  color: purple;
+  height: 88px;
+  width: 200px;
+  padding: 11px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.inlineFlex {
+  display: inline-flex;
+  box-sizing: border-box;
+  border: 3px solid black;
+  background-color: lightsalmon;
+  color: whitesmoke;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
 }
