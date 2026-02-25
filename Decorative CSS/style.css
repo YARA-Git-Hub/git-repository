@@ -32,15 +32,18 @@ border-radius: 15px;
 .example-row{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
+    
 }
 .example-box{
-    background:#667eea;
+    background: linear-gradient(45deg, #3f2cec, #b51f1f);
     color:  #ffffff;
     padding: 40px 60px;
     border-radius: 10px;
     font-size: 20px;
     text-align: center;
+
 }
 .shadow-basic{
     box-shadow: 15px 15px 20px
@@ -78,5 +81,61 @@ border-radius: 15px;
     outline-offset: 10px;
 }
 .blur-filter{
-    filter: blur(2px);
+    filter: blur(1px);
+}
+.translate{
+    transform: translate(10px, 20px)
+}
+.rotate{
+    transform: rotate(45deg);
+}
+.scale{
+    transform: scale(1.3);
+}
+.skew{
+    transform: skew(0deg, 10deg);
+}
+.translate-rotate{
+    transform: translate(10px, 20px) rotate(45deg);
+}
+.scale-rotate:hover{
+    transform: scale(1.2) rotate(120deg);
+      transition: transform 0.9s ease-in-out;
+}
+.rotate-x:hover{
+    transform: rotateX(150deg);
+    transition: transform 1s ease-in;
+}
+.rotate-y{
+    transform: rotateY(150deg);
+}
+.perspective-basic{
+    transform: perspective(100px)rotateX(35deg);
+}
+.point-center{
+transform-origin: center;
+transform: rotate(45deg);
+}
+.point-left{
+transform-origin: left;
+transform: rotate(45deg);
+}
+.point-right{
+transform-origin: right;
+transform: rotate(45deg);
+}
+.hover-scale:hover{
+    transition: transform 0.5s ease-in-out;
+transform: scale(1.2);
+
+}
+.hover-rotate:hover{
+    transition: transform 1s ease-in;
+    transform: rotate(180deg);
+
+}
+.hover-3d:hover{
+ transition: transform 1s ease-out;
+    transform: perspective(100px) rotateX(50deg);    
+
 }
