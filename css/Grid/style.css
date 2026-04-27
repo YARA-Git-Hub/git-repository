@@ -10,8 +10,8 @@ body {
 .page {
   max-width: 1200px;
 }
-.page__title{
-  color:green;
+.page__title {
+  color: green;
   margin-bottom: 20px;
   margin: 22px;
 }
@@ -29,8 +29,8 @@ body {
   border-radius: 15px;
   font-weight: bold;
 }
-.responsive__item responsive__item--current{
-  background-color: purple;
+.responsive__item--current {
+  background-color: rgb(126, 1, 126);
 }
 @media (min-width: 600px) {
   .responsive__grid {

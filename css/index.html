@@ -2,67 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>iintoo – Register</title>
     <link rel="stylesheet" href="style.css">
+    <title>CSS Positionng</title>
 </head>
 <body>
+    <section>
+<h1>CSS Positioning</h1>
+<p>This page demonstrates different CSS positioning techniques</p>
 
 <div class="container">
-
-    <div class="left">
-        <img src="assets/illustration.png" alt="Illustration">
-    </div>
-         <div class="right">
-        <h1>Get <span>iintoo</span> it today</h1>
-        <p class="subtitle">There is no charge or obligation upon registration.</p>
-
-        <div class="social-buttons">
-            <button class="facebook">Register with Facebook</button>
-            <button class="linkedin">Register with LinkedIn</button>
-        </div>
-
-        <div class="divider">OR</div>
-
-        <div class="form">
-            <input type="email" placeholder="Email">
-            <input type="tel" placeholder="Phone">
-        </div>
-
-        <h3>What type of investor are you?</h3>
-
-        <div class="radio-group">
-            <label>
-                <input type="radio" name="investor" checked>
-                Individual
-            </label>
-            <label>
-                <input type="radio" name="investor">
-                Business
-            </label>
-            <label>
-                <input type="radio" name="investor">
-                IRA
-            </label>
-            <label>
-                <input type="radio" name="investor">
-                Trust
-            </label>
-      
-       </div>
-
-        <p class="description">
-            I am a natural person investing on my own behalf as a sole owner,
-            joint tenant, or tenant in common.
-        </p>
-
-        <label class="checkbox">
-            <input type="checkbox">
-            I agree to the terms and receiving notifications from iintoo
-            <a href="#">View full terms</a>
-        </label>
-
-        <button class="create-account">Create Account</button>
+    <div class="static-positioning">
+       <strong>STATIC - не работают стили
+        TOP, BOTTOM, LEFT-RIGHT, z-INDEX
     </div>
 </div>
+
+<div class="container">
+    <div class="relative-positioning">
+       <strong>RELATIVE - работают стили
+        TOP, BOTTOM, LEFT-RIGHT, z-INDEX
+        </strong>
+    </div>
+</div>
+
+<div class="container">
+    <div class="relative-positioning-2">
+       <strong>RELATIVE - работают стили
+        TOP, BOTTOM, LEFT-RIGHT, z-INDEX
+    </div>
+</div>
+
+<div class="container2">
+    <div class="absolute-positioning">
+       <strong>ABSOLUTE - работают стили
+        TOP, BOTTOM, LEFT-RIGHT, z-INDEX
+    </div>
+</div>
+
+<div class="container">
+    <div class="fixed-positioning">
+       <strong>FIXED - работают стили
+        TOP, BOTTOM, LEFT-RIGHT, z-INDEX
+    </div>
+</div>
+
+<div class="container3">
+    <div class="sticky-positioning">
+       <strong>STICKY - работают стили
+        TOP, BOTTOM, LEFT-RIGHT, z-INDEX
+    </div>
+</div>
+
+    </section>
+
+
 </body>
 </html>

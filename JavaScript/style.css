@@ -1,0 +1,36 @@
+.buttonClass{
+    background-color: rgb(74, 36, 198);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.buttonClass:hover{
+    background-color: aqua;
+}
+.swiper{
+    width: 100%;
+    margin: 20px 0;
+}
+.swiper-wrapper{
+height: 200px;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+background-color: #667eea;
+color: white;
+border-radius: 20px;
+}
+.swiper-slide{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #667eea;
+color: white;
+
+}
+
+.swiper-button-prev, .swiper-button-next{
+ color: white;
+}
