@@ -1,6 +1,9 @@
 // const button = document.getElementById('myButton');
 
-const button = document.querySelector('.buttonClass');
+const button = document.querySelector('#myButton');
+button.addEventListener('click', () => {
+alert('Button was clicked!');
+});
 
 button.addEventListener('click', () => {
   alert('Button was clicked!');
@@ -14,3 +17,4 @@ const swiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
