@@ -44,11 +44,11 @@ body{
      cornflowerblue;
 }
 .rgba{
-background-color: rgba(71, 89, 154, 0.5);
+background-color: rgba(71, 89, 154, 0.7);
 }
 .repeated{
-    width: 200px;
-    height: 150px;
+width: 200px;
+height: 150px;
 background-image: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg');
 background-repeat: repeat;
 background-size: cover;
@@ -92,9 +92,9 @@ background-position: left bottom;
 background-color: #667eea;
 }
 
-.right{
-    width: 200px;
-    height: 150px;
+.rigth{
+ width: 200px;
+height: 150px;
 background-image: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg');
 background-repeat: no-repeat;
 background-size: 50px 50px;
@@ -105,17 +105,17 @@ background-color: #667eea;
 .linear{
 width: 200px;
 height: 150px;
-background: linear-gradient(to right, #00070b, #6f8078);
+background: linear-gradient(to right, #667eea, #764ba2);
 }
 .radial{
     width: 200px;
     height: 150px;
-    background: radial-gradient(circle, #81d00a, #764ba2);
+    background: radial-gradient(circle, #13cb5c, #700ad6);
 }
 .conic{
     width: 200px;
     height: 150px;
-    background: conic-gradient(yellow, rgb(0, 255, 195), #d810ca);
+    background: conic-gradient(rgb(225, 101, 18), rgb(0, 255, 195), #d810ca);
 }
 
 .fixed{
